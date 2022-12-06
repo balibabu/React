@@ -1,0 +1,19 @@
+import React from "react";
+import ReactDom from "react-dom";
+
+let name = "Bali";
+let n = Math.floor(Math.random() * 10);
+
+ReactDom.render(
+  <div>
+    <h1>Hello {name}</h1>
+    <hr />
+    <p>your fav no is {n}</p>
+  </div>,
+  document.getElementById("root")
+);
+
+//Create a react app from scratch.
+//It sholid display a h1 heading.
+//It sholid display an unordered list (blilet points).
+//It sholid contain 3 list elements.

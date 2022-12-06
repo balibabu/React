@@ -1,0 +1,20 @@
+//Create a react app from scratch.
+//It sholid display a h1 heading.
+//It sholid display an unordered list (blilet points).
+//It sholid contain 3 list elements.
+
+import React from "react";
+import ReactDom from "react-dom";
+
+ReactDom.render(
+  <div>
+    <h1>My Favourite Foods</h1>
+    <hr/>
+    <ul>
+      <li>Becon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
